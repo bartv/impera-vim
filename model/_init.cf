@@ -29,5 +29,5 @@ implement Vim using vimPackage when host.os is "redhat"
 
 implementation vimPackage:
     pkg = std::Package(host = host, name = "vim-enhanced", state = "installed")
-    std::ConfigFile(host = host, path = "/etc/vimrc", content = template("vim/vimrc.tmpl"), requires = pkg)
+    std::ConfigFile(host = host, path = "/etc/vimrc", content = std::template("vim/vimrc.tmpl"), requires = pkg)
 end
