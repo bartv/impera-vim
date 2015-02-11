@@ -3,6 +3,6 @@ description: Install vim and change some default to my liking :)
 license: Apache 2.0
 name: vim
 source: git@github.com:bartv/impera-vim
-version: 0.2.3
+version: 0.2.4
 requires:
     std: git@github.com:impera-io/std, ">= 0.3"
