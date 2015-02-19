@@ -2,7 +2,7 @@ author: Bart Vanbrabant <bart@impera.io>
 description: Install vim and change some default to my liking :)
 license: Apache 2.0
 name: vim
-source: git@github.com:bartv/impera-vim
-version: 0.2.4
+source: git@git.impera.io:modules/vim
+version: 0.2.5
 requires:
-    std: git@github.com:impera-io/std, ">= 0.3"
+    std: git@git.impera.io:modules/std, ">= 0.3"
